@@ -30,8 +30,12 @@
                         <a class="dropdown-item" id="logout" href="#" onclick="event.preventDefault();document.getElementById('logout-form').submit();">退出登录</a>
                         <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                 {{ csrf_field() }}
-                            </form>
-                        </div>
+                        </form>
+                        <a href="{{ route('user_addresses.index') }}" class="dropdown-item">收货地址</a>
+                        <form id="logout-form" action="{{ route('user_addresses.index') }}" method="POST" style="display: none;">
+                            {{ csrf_field() }}
+                        </form>
+                    </div>
                 </li>
                 @endguest
                 <!-- 登录注册链接结束 -->
