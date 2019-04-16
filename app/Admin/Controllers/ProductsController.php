@@ -63,7 +63,7 @@ class ProductsController extends Controller
 
         return $grid;
     }
-    
+
     protected function form()
     {
         $form = new Form(new Product);
