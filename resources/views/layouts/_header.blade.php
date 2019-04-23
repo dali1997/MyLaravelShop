@@ -42,6 +42,10 @@
                         <form id="logout-form" action="{{ route('products.favorites') }}" method="get" style="display: none;">
                             {{ csrf_field() }}
                         </form>
+                        <a href="{{ route('orders.index') }}" class="dropdown-item">我的订单</a>
+                        <form id="logout-form" action="{{ route('orders.index') }}" method="get" style="display: none;">
+                            {{ csrf_field() }}
+                        </form>
                     </div>
                 </li>
                 @endguest
