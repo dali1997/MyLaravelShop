@@ -32,13 +32,13 @@
                                                     <td class="product-info">
                                                         <div class="preview">
                                                             <a target="_blank" href="{{ route('products.show', [$item->product_id]) }}">
-                                                                <img src="{{ $item->product->image_url }}">
+                                                                <img src="{{ $item->product->image }}">
                                                             </a>
                                                         </div>
                                                         <div>
-                        <span class="product-title">
-                           <a target="_blank" href="{{ route('products.show', [$item->product_id]) }}">{{ $item->product->title }}</a>
-                        </span>
+                                                            <span class="product-title">
+                                                               <a target="_blank" href="{{ route('products.show', [$item->product_id]) }}">{{ $item->product->title }}</a>
+                                                            </span>
                                                             <span class="sku-title">{{ $item->productSku->title }}</span>
                                                         </div>
                                                     </td>
@@ -61,7 +61,7 @@
                                                                 否则订单将自动关闭
                                                             @endif
                                                         </td>
-                                                        <td rowspan="{{ count($order->items) }}" class="text-center"><a class="btn btn-primary btn-sm" href="">查看订单</a></td>
+                                                        <td rowspan="{{ count($order->items) }}" class="text-center"><a class="btn btn-primary btn-sm" href="{{ route('orders.show', ['order' => $order->id]) }}">查看订单</a></td>
                                                     @endif
                                                 </tr>
                                             @endforeach

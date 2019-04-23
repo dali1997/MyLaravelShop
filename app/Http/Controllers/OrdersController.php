@@ -74,7 +74,12 @@ class OrdersController extends Controller
             ->with(['items.product','items.productSku'])
             ->where('user_id',$request->user()->id)
             ->orderBy('created_at','desc')
-            ->paginate();
+            ->paginate(5);
         return view('orders.index',['orders'=>$ordes]);
+    }
+
+    public function show(Order $order,Request $request){
+        $this->authorize('own',$order);
+        return view('orders.show',['order'=>$order->load(['items.productSku','items.product'])]);
     }
 }
