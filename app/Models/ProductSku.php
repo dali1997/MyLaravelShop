@@ -20,7 +20,7 @@ class ProductSku extends Model
             throw new InternalException('减库存不可小于0');
         }
 
-        return $this->where('id', $this->id)->where('stock', '>=', $amount)->decrement('stock', $amount);
+        return $this->newQuery()->where('id', $this->id)->where('stock', '>=', $amount)->decrement('stock', $amount);
     }
 
     public function addStock($amount)
