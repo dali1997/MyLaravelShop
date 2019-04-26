@@ -63,7 +63,7 @@
                                 <span>订单总价：</span>
                                 <div class="value">￥{{ $order->total_amount }}</div>
                             </div>
-                            <div>
+                            <div class="order-status">
                                 <span>订单状态：</span>
                                 <div class="value">
                                     @if($order->paid_at)
