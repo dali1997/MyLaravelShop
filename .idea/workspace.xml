@@ -109,11 +109,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DatabaseSeeder.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DatabaseSeeder.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="414">
               <caret line="18" column="41" lean-forward="false" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="homestead.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/database/homestead.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -314,7 +324,7 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="370" />
+    <option name="x" value="461" />
     <option name="y" value="38" />
     <option name="width" value="1369" />
     <option name="height" value="990" />
@@ -543,6 +553,9 @@
     <property name="last_opened_file_path" value="C:/phpStudy/PHPTutorial/WWW/laravel/mylaravel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dali1997\Code\Laravel\database" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\dali1997\Code\Laravel\public\images" />
       <recent name="C:\Users\dali1997\Code\Laravel\app\Models" />
@@ -595,15 +608,15 @@
       <workItem from="1556267333069" duration="44000" />
       <workItem from="1556411681638" duration="8188000" />
       <workItem from="1556431388127" duration="9629000" />
-      <workItem from="1556497283076" duration="5422000" />
+      <workItem from="1556497283076" duration="6043000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139741000" />
+    <option name="totallyTimeSpent" value="140362000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="370" y="38" width="1369" height="990" extended-state="0" />
+    <frame x="461" y="38" width="1369" height="990" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16210215" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -674,13 +687,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/js/components/ExampleComponent.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -971,7 +977,7 @@
         <state relative-caret-position="414">
           <caret line="18" column="31" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="31" />
           <folding>
-            <element signature="e#40#68#0#PHP" expanded="true" />
+            <element signature="e#40#68#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -981,7 +987,7 @@
         <state relative-caret-position="1288">
           <caret line="62" column="45" lean-forward="false" selection-start-line="62" selection-start-column="40" selection-end-line="62" selection-end-column="45" />
           <folding>
-            <element signature="e#32#52#0#PHP" expanded="true" />
+            <element signature="e#32#52#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1077,6 +1083,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="18" column="41" lean-forward="false" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/homestead.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
